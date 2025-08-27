@@ -14,4 +14,9 @@ public class Produto extends Item {
     public void setPrecoAssociado(double precoAssociado) {
         this.precoAssociado = precoAssociado;
     }
+
+    @Override
+    public double getValorTotal() {
+        return this.precoAssociado;
+    }
 }
