@@ -1,0 +1,11 @@
+{
+  "name": "spring-api-client",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node request.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
